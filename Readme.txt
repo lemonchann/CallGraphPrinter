@@ -15,7 +15,6 @@ python setup.py install --include-path=/usr/include/graphviz --library-path=/usr
 解决方法参考：https://github.com/pygraphviz/pygraphviz/issues/71
 生成之后的库是在build目录。要重新安装只要删除build目录就行重新执行就行。
 
-
 至此pygraphviz终于安装完成。
 为了支持py脚本的webbrowser.open，后面还装了firefox浏览器:yum install firefox，
 和Xvfb:  yum install xorg-x11-server-Xvfb
