@@ -1,21 +1,24 @@
+************************************
+2016-05-24 11:16:45
+************************************
 called:
 main
-/mnt/hgfs/git/CallGraphGen/abTest.cpp:4
+/mnt/hgfs/git/CallGraphGen/src/abTest.cpp:4
 caller:
 ??
 ??:0
 
 called:
 _ZN1A3setEv
-/mnt/hgfs/git/CallGraphGen/a.hpp:6
+/mnt/hgfs/git/CallGraphGen/src/a.hpp:6
 caller:
 main
-/mnt/hgfs/git/CallGraphGen/abTest.cpp:8
+/mnt/hgfs/git/CallGraphGen/src/abTest.cpp:8
 
 called:
 _ZN1B3setEv
-/mnt/hgfs/git/CallGraphGen/b.hpp:7
+/mnt/hgfs/git/CallGraphGen/src/b.hpp:7
 caller:
 main
-/mnt/hgfs/git/CallGraphGen/abTest.cpp:8
+/mnt/hgfs/git/CallGraphGen/src/abTest.cpp:8
 

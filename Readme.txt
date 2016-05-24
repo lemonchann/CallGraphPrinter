@@ -1,3 +1,6 @@
+**********************************************
+安装pygraphviz
+**********************************************
 首先配置yum 163源：
 参考：http://qingwang.blog.51cto.com/505009/1551228/
 注意如果wget不到就用浏览器一级一级的打开URL验证是否可用。
@@ -24,3 +27,11 @@ python setup.py install --include-path=/usr/include/graphviz --library-path=/usr
 
 由于是精简版的命令行小红帽不支持画图x11显示：最后止步：Xlib:  extension "RANDR" missing on display ":1"
 等以后装了桌面版的Linux发行版再来pygraphviz应该可用。
+
+************************************************
+用shell脚本脚本生成调用栈日志
+************************************************
+g++ -g -finstrument-functions instrument.c src-file -o prog-name
+Usage： CallLogGen.sh prog-name
+out: 	log.txt
+https://www.zhihu.com/question/26766601/answer/100811896
